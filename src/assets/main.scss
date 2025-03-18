@@ -224,8 +224,10 @@ table {
             1366: 0.8,
             1280: 0.7,
             1024: 0.6,
-            920: 0.55,
+            920: 0.5,
+            800: 0.5,
             768: 0.5,  /* 平板 */
+            700: 0.4,
             576: 0.3,  /* 手機橫向 */
             430: 0.25,
             375: 0.2   /* 手機直向 */
@@ -241,8 +243,8 @@ table {
         .screen_container{
             width: 58%;
             margin: 0 auto;
-            padding-top: 18vh;
-            $base-padding-top: 18;
+            padding-top: 22vh;
+            $base-padding-top: 22;
 
             $padding-breakpoints: (
               1600: 0.9,
@@ -251,7 +253,7 @@ table {
               1280: 0.7,
               1024: 0.6,
               920: 0.55,
-              575: 0.26,  /* 手機橫向 */
+              575: 0.35,  /* 手機橫向 */
             );
 
             @each $width, $scale in $padding-breakpoints {

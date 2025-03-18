@@ -64,43 +64,43 @@ export default {
       <div class="screen_container animate">
 
         <div class="left_side">
-          <img src="/assets/img/S25-01-banner2.webp" style="width: 80%; margin: 5% 0">
-          <img src="/assets/img/S25-01-food.webp">
+          <img src="/assets/img/W25-01-banner2.webp" style="width: 80%; margin: 5% 0">
+          <img src="/assets/img/W25-01-food.webp">
         </div>
 
-        <img src="/assets/img/S25-01-banner.webp" class="banner">
-        <img src="/assets/img/S25-01-banner1.webp" class="banner1">
+        <img src="/assets/img/W25-01-banner.webp" class="banner">
+        <img src="/assets/img/W25-01-banner1.webp" class="banner1">
 
         <div class="right_side">
-          <img src="/assets/img/S25-01-food2.webp">
-          <img src="/assets/img/S25-01-banner3.webp" style="width: 60%; margin: 5% 0">
-          <img src="/assets/img/S25-01-food3.webp">
+          <img src="/assets/img/W25-01-food2.webp">
+          <img src="/assets/img/W25-01-banner3.webp" style="width: 60%; margin: 5% 0">
+          <img src="/assets/img/W25-01-food3.webp">
         </div>
       </div>
     </div>
 
     <div id="screen_25_2">
       <div class="screen_container">
-        <img src="/assets/img/S25-01-screen2.webp" class="banner">
+        <img src="/assets/img/W25-01-screen2.webp" class="banner">
       </div>
     </div>
 
     <div id="screen_25_3">
       <div class="screen_container">
-        <img src="/assets/img/S25-01-screen3.webp" class="banner">
-        <img src="/assets/img/S25-01-add.webp" class="add">
+        <img src="/assets/img/W25-01-screen3.webp" class="banner">
+        <img src="/assets/img/W25-01-add.webp" class="add">
       </div>
     </div>
 
     <div id="screen_25_4">
       <div class="screen_container">
-        <img src="/assets/img/S25-01-screen4.webp" class="banner">
+        <img src="/assets/img/W25-01-screen4.webp" class="banner">
       </div>
     </div>
 
     <div id="screen_25_5">
       <div class="screen_container">
-        <img src="/assets/img/S25-01-screen5.webp" class="banner">
+        <img src="/assets/img/W25-01-screen5.webp" class="banner">
       </div>
     </div>
 

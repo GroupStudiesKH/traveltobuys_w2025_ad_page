@@ -7,10 +7,10 @@ export default {
   setup() {
     const router = useRouter();
     const screenRefs = ref([]);
+    const isMobile = window.innerWidth < 768;
 
     onMounted(() => {
       const activeIndices = ref(new Set());
-      const isMobile = window.innerWidth < 768;
 
       if (isMobile) {
 
@@ -21,11 +21,10 @@ export default {
               if (entry.isIntersecting && !activeIndices.value.has(index)) {
                 entry.target.classList.add("animate");
                 activeIndices.value.add(index);
-                console.log(activeIndices.value);
               }
             });
           },
-          { threshold: 0.1 }
+          { threshold: 0.5 }
         );
 
 
@@ -112,7 +111,9 @@ export default {
       }
     });
 
-    return {};
+    return {
+      isMobile
+    };
   },
 };
 </script>
@@ -144,13 +145,13 @@ export default {
     </div>
 
     <div id="screen_25_2">
-      <div class="screen_container">
+      <div class="screen_container" :class="isMobile ? 'animate' : ''">
         <img src="/assets/img/W25-01-screen2.webp" class="banner" />
       </div>
     </div>
 
     <div id="screen_25_3">
-      <div class="screen_container">
+      <div class="screen_container" :class="isMobile ? 'animate' : ''">
         <img src="/assets/img/W25-01-screen3.webp" class="banner" />
       </div>
     </div>

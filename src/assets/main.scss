@@ -369,9 +369,9 @@ table {
         background-position: top center;
         background-repeat: no-repeat;
         text-align: center;
-        min-height: 830px;
+        min-height: 930px;
         margin-top: -80px;
-        $base-height: 830;
+        $base-height: 930;
         $base-margin-top: -80;
         $breakpoints: (
           920: 0.9,
@@ -426,12 +426,12 @@ table {
         background-position: top center;
         background-repeat: no-repeat;
         text-align: center;
-        min-height: 1320px;
-        margin-top: -90px;
+        min-height: 1450px;
+        margin-top: -130px;
         position: relative;
         z-index: 8;
-        $base-height: 1320;
-        $base-margin-top: -90;
+        $base-height: 1450;
+        $base-margin-top: -130;
         $breakpoints: (
           920: 0.9,
           800: 0.8,

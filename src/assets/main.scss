@@ -439,6 +439,7 @@ table {
           700: 0.6,
           576: 0.5,  /* 手機橫向 */
           430: 0.4,
+          390: 0.35,
           375: 0.3   /* 手機直向 */
         );
 
@@ -549,6 +550,7 @@ table {
           700: 0.6,
           576: 0.45,  /* 手機橫向 */
           430: 0.4,
+          390: 0.35,
           375: 0.33   /* 手機直向 */
         );
 
@@ -647,10 +649,10 @@ table {
         background-repeat: no-repeat;
         text-align: center;
         min-height: 1500px;
-        margin-top: -65px;
+        margin-top: -105px;
         position: relative;
         z-index: 6;
-        $base-margin-top: -65;
+        $base-margin-top: -105;
         $base-height: 1500;
         $breakpoints: (
           920: 0.9,
@@ -659,7 +661,7 @@ table {
           700: 0.6,
           576: 0.5,  /* 手機橫向 */
           430: 0.4,
-          375: 0.3   /* 手機直向 */
+          390: 0.3,
         );
 
         @each $width, $scale in $breakpoints {
@@ -681,7 +683,7 @@ table {
               700: 0.6,
               576: 0.5,  /* 手機橫向 */
               430: 0.4,
-              375: 0.3   /* 手機直向 */
+              390: 0.3,
             );
 
             @each $width, $scale in $padding-breakpoints {
@@ -715,7 +717,7 @@ table {
         700: 0.6,
         576: 0.45,  /* 手機橫向 */
         430: 0.4,
-        375: 0.35   /* 手機直向 */
+        390: 0.35   /* 手機直向 */
       );
 
       @each $width, $scale in $breakpoints {
@@ -854,7 +856,7 @@ table {
           700: 0.6,
           576: 0.45,  /* 手機橫向 */
           430: 0.4,
-          375: 0.35   /* 手機直向 */
+          390: 0.35   /* 手機直向 */
         );
 
         @each $width, $scale in $breakpoints {
@@ -887,7 +889,7 @@ table {
       background-position: top center;
       background-repeat: no-repeat;
       text-align: center;
-      z-index: 1;
+      z-index: 10;
       position: relative;
       min-height: 1260px;
       /* 使用迴圈生成不同螢幕寬度的高度設定 */
@@ -899,7 +901,7 @@ table {
         700: 0.6,
         576: 0.45,  /* 手機橫向 */
         430: 0.4,
-        375: 0.35   /* 手機直向 */
+        390: 0.35   /* 手機直向 */
       );
 
       @each $width, $scale in $breakpoints {

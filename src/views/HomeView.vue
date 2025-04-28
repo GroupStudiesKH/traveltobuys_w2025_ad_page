@@ -168,7 +168,7 @@ export default {
       </div>
     </div>
 
-    <div id="screen_25_51">
+    <!-- <div id="screen_25_51">
       <div class="screen_container">
         <img src="/assets/img/W25-01-screen6.webp" class="banner" />
       </div>
@@ -178,15 +178,15 @@ export default {
       <div class="screen_container">
         <img src="/assets/img/W25-01-screen7.webp" class="banner" />
       </div>
-    </div>
+    </div> -->
 
-    <div id="screen_25_6">
+    <!-- <div id="screen_25_6">
       <div class="screen_container animate">
         <img src="/assets/img/W25-02-screen1.webp" class="banner" />
       </div>
-    </div>
+    </div> -->
 
-    <div id="screen_25_7">
+    <!-- <div id="screen_25_7">
       <div class="screen_container">
         <img src="/assets/img/W25-02-screen2.webp" class="banner" />
       </div>
@@ -202,20 +202,20 @@ export default {
       <div class="screen_container">
         <img src="/assets/img/W25-02-screen4.webp" class="banner" />
       </div>
-    </div>
+    </div> -->
 
-    <div id="screen_25_10">
+    <!-- <div id="screen_25_10">
       <div class="screen_container animate">
         <img src="/assets/img/W25_03_screen1.webp" class="banner" />
       </div>
-    </div>
+    </div> -->
 
-    <div id="screen_25_11">
+    <!-- <div id="screen_25_11">
       <div class="screen_container">
         <img src="/assets/img/W25_03_screen2.webp" class="banner" />
         <img src="/assets/img/W25_03_screen3.webp" class="banner" />
       </div>
-    </div>
+    </div> -->
 
     <div id="screen_25_12">
       <div class="screen_container"></div>

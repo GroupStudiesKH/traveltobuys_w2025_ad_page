@@ -31,10 +31,7 @@ document.addEventListener('DOMContentLoaded', () => {
     if (isMobile) {
       const mobileScreens = [
         'screen_25_3', 'screen_25_2', 'screen_25_4',
-        'screen_25_5', 'screen_25_51', 'screen_25_52',
-        'screen_25_6', 'screen_25_7', 'screen_25_8',
-        'screen_25_10', 'screen_25_12', 'screen_25_9',
-        'screen_25_11'
+        'screen_25_5'
       ];
       
       if (mobileScreens.includes(parentId)) {
@@ -42,8 +39,7 @@ document.addEventListener('DOMContentLoaded', () => {
       }
     } else {
       switch(parentId) {
-        case 'screen_25_9':
-        case 'screen_25_11':
+        case 'screen_25_5':
           specialObserver.observe(el);
           break;
         default:
